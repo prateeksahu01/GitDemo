@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17040" started-at="2021-08-17T07:52:30Z" finished-at="2021-08-17T07:52:47Z">
+    <groups>
+    </groups>
+    <test name="App Testing" duration-ms="3" started-at="2021-08-17T07:52:30Z" finished-at="2021-08-17T07:52:30Z">
+    </test> <!-- App Testing -->
+    <test name="Validate title and bar" duration-ms="15389" started-at="2021-08-17T07:52:30Z" finished-at="2021-08-17T07:52:46Z">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidateTitle@59e32960]" name="initialize" is-config="true" duration-ms="15189" started-at="2021-08-17T09:52:30Z" finished-at="2021-08-17T09:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateHeader()[pri:0, instance:Academy.ValidateTitle@59e32960]" name="validateHeader" duration-ms="60" started-at="2021-08-17T09:52:46Z" finished-at="2021-08-17T09:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:Academy.ValidateTitle@59e32960]" name="validateTitle" duration-ms="71" started-at="2021-08-17T09:52:46Z" finished-at="2021-08-17T09:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.ValidateTitle@59e32960]" name="tearDown" is-config="true" duration-ms="62" started-at="2021-08-17T09:52:46Z" finished-at="2021-08-17T09:52:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validate title and bar -->
+    <test name="Validating user login" duration-ms="17040" started-at="2021-08-17T07:52:30Z" finished-at="2021-08-17T07:52:47Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@4ddbbdf8]" name="initialize" is-config="true" duration-ms="14852" started-at="2021-08-17T09:52:30Z" finished-at="2021-08-17T09:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@4ddbbdf8]" name="basePageNavigation" duration-ms="1573" started-at="2021-08-17T09:52:45Z" data-provider="getData" finished-at="2021-08-17T09:52:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="resetPassword()[pri:0, instance:Academy.HomePage@4ddbbdf8]" name="resetPassword" duration-ms="566" started-at="2021-08-17T09:52:47Z" finished-at="2021-08-17T09:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@4ddbbdf8]" name="tearDown" is-config="true" duration-ms="44" started-at="2021-08-17T09:52:47Z" finished-at="2021-08-17T09:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validating user login -->
+  </suite> <!-- Suite -->
+</testng-results>

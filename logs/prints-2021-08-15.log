@@ -1,0 +1,8 @@
+15:33:14.244 [TestNG] INFO  abc.Base - clicked on Login button
+17:23:47.423 [main] INFO  abc.Base - driver is initialized
+17:24:17.115 [main] INFO  abc.Base - Navigated to HomePage
+17:24:17.159 [main] INFO  abc.Base - successfully validated Title
+17:24:17.189 [main] INFO  abc.Base - successfully displayed navigation bar
+17:24:53.234 [main] INFO  abc.Base - clicked on Login button
+17:32:52.916 [main] INFO  abc.Base - driver is initialized
+17:33:22.993 [main] INFO  abc.Base - Navigated to HomePage

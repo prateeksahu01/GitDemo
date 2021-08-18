@@ -1,0 +1,8 @@
+16:59:28.831 [TestNG] INFO  abc.Base - successfully displayed navigation bar
+17:01:10.901 [TestNG] INFO  abc.Base - driver is initialized
+17:01:25.494 [TestNG] INFO  abc.Base - Navigated to HomePage
+17:01:25.550 [TestNG] INFO  abc.Base - successfully validated Title
+17:01:25.604 [TestNG] INFO  abc.Base - successfully displayed navigation bar
+17:02:00.895 [TestNG] INFO  abc.Base - driver is initialized
+17:02:11.043 [TestNG] INFO  abc.Base - Navigated to HomePage
+17:02:11.107 [TestNG] INFO  abc.Base - successfully validated Title
