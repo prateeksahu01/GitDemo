@@ -9,12 +9,10 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
+	
+	public AppTest () {
+  System.out.println("First vala commit");
+	// TODO Auto-generated method stub}
+
+}
 }
